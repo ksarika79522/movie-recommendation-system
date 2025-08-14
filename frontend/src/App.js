@@ -93,8 +93,8 @@ function App() {
   return (
     <div className="App">
       <header className="app-header">
-        <h1>🎬 Movie Recommendation System</h1>
-        <p>Discover your next favorite movie based on your preferences</p>
+        <h1>🎬 MovieRec Pro</h1>
+        <p>Find Your Next Watch!</p>
       </header>
 
       <main className="main-content">
@@ -151,7 +151,7 @@ function App() {
       </main>
 
       <footer className="app-footer">
-        <p>Movie Recommendation System built with React & Python</p>
+        <p>&#x00A9; 2025 MovieRec Pro. All Rights Reserved.</p>
       </footer>
     </div>
   );
