@@ -1,110 +1,143 @@
-# Movie Recommendation System #  
-🎬 MovieRec Pro — AI Movie Recommendation System
+# 🎬 MovieRec Pro — AI Movie Recommendation System
 
-A full-stack movie recommendation platform that suggests personalized movies using machine learning and user preference modeling.
+A full-stack movie recommendation platform that generates personalized movie suggestions using machine learning and user preference modeling.
 
-🚀 Overview
+---
 
-MovieRec Pro is an end-to-end recommendation system that analyzes user ratings and behavior to generate personalized movie suggestions. The system combines collaborative filtering techniques with a modern web interface for real-time recommendations.
+## 🚀 Overview
 
-Designed as a portfolio project to demonstrate applied machine learning, backend engineering, and full-stack development.
+MovieRec Pro is an end-to-end recommendation system that analyzes user ratings and behavior to produce personalized movie suggestions. The system combines collaborative filtering techniques with a modern web interface for real-time recommendations.
 
-✨ Features
+This project demonstrates applied machine learning, backend engineering, and full-stack development.
 
-🎯 Personalized movie recommendations
+---
 
-🤝 Collaborative filtering (user-based & item-based)
+## ✨ Features
 
-⭐ Rating prediction engine
+- 🎯 Personalized movie recommendations  
+- 🤝 Collaborative filtering (user-based & item-based)  
+- ⭐ Rating prediction engine  
+- 🔍 Movie search by title  
+- 📊 Ranked recommendation scoring  
+- ⚡ Fast API backend  
+- 🖥️ Modern React/Next.js frontend  
 
-🔍 Search movies by title
+---
 
-📊 Recommendation scoring
+## 🧠 Machine Learning Approach
 
-⚡ Fast API backend
+MovieRec Pro uses collaborative filtering to predict user preferences and recommend unseen movies.
 
-🖥️ Modern React/Next.js frontend
+### Algorithms Used
 
-🧠 Machine Learning Approach
+- K-Nearest Neighbors (KNN)
+- Matrix Factorization (SVD via Surprise library)
+- User-based filtering
+- Item-based filtering
 
-MovieRec Pro uses collaborative filtering techniques to predict user preferences:
+### Workflow
 
-Algorithms Used
+1. Load movie dataset (MovieLens / TMDB)
+2. Preprocess ratings data
+3. Train recommendation model
+4. Predict ratings for unseen movies
+5. Generate Top-N recommendations
 
-K-Nearest Neighbors (KNN)
+---
 
-Matrix Factorization (SVD via Surprise library)
+## 🏗️ Tech Stack
 
-User-based filtering
+### Backend
+- Python  
+- FastAPI  
+- Scikit-learn  
+- Surprise (recommendation library)  
+- Pandas / NumPy  
 
-Item-based filtering
+### Frontend
+- React / Next.js  
+- Tailwind CSS  
+- Axios  
 
-Workflow
+### Data
+- MovieLens dataset  
+- TMDB metadata  
 
-Load movie dataset (MovieLens/TMDB)
+---
 
-Preprocess ratings
+## 📂 Project Structure
 
-Train recommendation model
 
-Predict unseen ratings
+---
 
-Generate ranked recommendations
+## ⚙️ Installation
 
-🏗️ Tech Stack
-Backend
+### 1. Clone the Repository
 
-Python
 
-FastAPI
-
-Scikit-learn
-
-Surprise (recommendation library)
-
-Pandas / NumPy
-
-Frontend
-
-React / Next.js
-
-Tailwind CSS
-
-Axios
-
-Data
-
-MovieLens dataset
-
-TMDB metadata
-
-📂 Project Structure
-MovieRec-Pro/
-│
-├── backend/
-│   ├── app/
-│   ├── models/
-│   ├── recommender/
-│   └── main.py
-│
-├── frontend/
-│   ├── components/
-│   ├── pages/
-│   └── styles/
-│
-├── data/
-│   └── datasets
-│
-└── README.md
-⚙️ Installation
-Clone the repository
-git clone https://github.com/yourusername/MovieRec-Pro.git
-cd MovieRec-Pro
-Backend Setup
+### 2. Backend Setup
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
-Frontend Setup
+
+Backend will run at:
+http://127.0.0.1:8000
+
+
+---
+
+### 3. Frontend Setup
+
 cd frontend
 npm install
 npm run dev
+
+
+Frontend will run at:
+http://localhost:3000
+
+
+---
+
+## 📈 Example Recommendation Flow
+
+1. User selects favorite movies  
+2. System analyzes similar users/items  
+3. Model predicts ratings for unseen movies  
+4. Top recommendations returned  
+
+---
+
+## 🎯 Future Improvements
+
+- Hybrid recommender (content + collaborative)
+- AI chat movie assistant
+- User authentication
+- Watchlist system
+- Cloud deployment
+
+---
+
+## 🧑‍💻 Author
+
+**Karthik Sarika**  
+Computer Science Student @ NC State  
+Aspiring Software Engineer & AI Developer  
+
+---
+
+## ⭐ Why This Project Matters
+
+This project demonstrates:
+
+- Applied machine learning  
+- Data pipeline design  
+- Full-stack engineering  
+- Scalable API development  
+- Real-world recommendation systems  
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
